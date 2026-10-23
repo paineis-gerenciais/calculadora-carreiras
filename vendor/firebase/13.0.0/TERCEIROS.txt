@@ -1,0 +1,105 @@
+Avisos de terceiros embutidos em firebase@13.0.0
+
+Este arquivo reúne os avisos de licença das dependências que o bundle embute sem trazer o próprio aviso
+(parecer de segurança do projeto, A13). As versões são as resolvidas a partir dos intervalos declarados
+no registro npm em 23/10/2026. Não é parecer jurídico.
+
+Nota: firebase-firestore.js: o import do gstatic foi trocado por "./firebase-app.js" (única alteração).
+Nota: @grpc/grpc-js, dependência do pacote npm, não está no bundle de navegador (parecer A14).
+
+==============================================================================
+@firebase/app@0.16.3   licença declarada: Apache-2.0
+integridade do tarball (registro, conferida): sha512-L2mYqVV2ilnek+W4JG7yasA97TsXCwx+f7/abweX5uSp3dkPa5Luiglt3s9YWfh1fBR3SWH/AkRgAwUpDGyCjg==
+==============================================================================
+(o pacote npm não traz arquivo de licença; vale a licença declarada acima. Para os pacotes @firebase/*, o texto da Apache-2.0 está no arquivo LICENSE desta pasta.)
+
+==============================================================================
+@firebase/firestore@4.18.0   licença declarada: Apache-2.0
+integridade do tarball (registro, conferida): sha512-28aKMUeM+L4fuxx5hurvQK31KLh/KRutaP1544avVWuR4mNTAC0FQoHg8gbkN5NoJj3yN9/ZFGSFSVPR8/x/BQ==
+==============================================================================
+(o pacote npm não traz arquivo de licença; vale a licença declarada acima. Para os pacotes @firebase/*, o texto da Apache-2.0 está no arquivo LICENSE desta pasta.)
+
+==============================================================================
+@firebase/util@1.15.3   licença declarada: Apache-2.0
+integridade do tarball (registro, conferida): sha512-c/z/gaIlaaLZEuGbE6sLUuJ61tskg1JghvhcNQzW948ASBinbVBBRnZTC4b4yt4LaEtJQkYlyzqLHcutFwEIvA==
+==============================================================================
+(o pacote npm não traz arquivo de licença; vale a licença declarada acima. Para os pacotes @firebase/*, o texto da Apache-2.0 está no arquivo LICENSE desta pasta.)
+
+==============================================================================
+@firebase/component@0.7.5   licença declarada: Apache-2.0
+integridade do tarball (registro, conferida): sha512-vuFDcL91Q+2ZuBJkyOh86T4q0B4ffNTDjc/A38tybO56odQABxRTFLTIowCWqAKeIcgo37GowWMVgFF73gD8Qw==
+==============================================================================
+(o pacote npm não traz arquivo de licença; vale a licença declarada acima. Para os pacotes @firebase/*, o texto da Apache-2.0 está no arquivo LICENSE desta pasta.)
+
+==============================================================================
+@firebase/logger@0.5.2   licença declarada: Apache-2.0
+integridade do tarball (registro, conferida): sha512-J2VO4NFTc0xQFrxV1B/lm5balicm9cwuX2acR9Yn41fN8KgUeQFo+VJV222IqW2FPSXKDu9uo5WdQFWf9TPbYg==
+==============================================================================
+(o pacote npm não traz arquivo de licença; vale a licença declarada acima. Para os pacotes @firebase/*, o texto da Apache-2.0 está no arquivo LICENSE desta pasta.)
+
+==============================================================================
+@firebase/webchannel-wrapper@1.0.7   licença declarada: Apache-2.0
+integridade do tarball (registro, conferida): sha512-phBFwieDLvkZGYN9CE9ZFNEIoBVksprzsnCzQejCmCHtgwCXReeuRpoEGN9C4EbhONztv8NRV1tau6Rb9pONwQ==
+==============================================================================
+(o pacote npm não traz arquivo de licença; vale a licença declarada acima. Para os pacotes @firebase/*, o texto da Apache-2.0 está no arquivo LICENSE desta pasta.)
+
+==============================================================================
+idb@7.1.1   licença declarada: ISC
+integridade do tarball (registro, conferida): sha512-gchesWBzyvGHRO9W8tzUWFDycow5gwjvFKfyV9FF32Y7F50yZMp7mP+T2mJIWFx49zicqyC4uefHM17o6xKIVQ==
+==============================================================================
+[LICENSE]
+
+ISC License (ISC)
+Copyright (c) 2016, Jake Archibald <jaffathecake@gmail.com>
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+==============================================================================
+tslib@2.8.1   licença declarada: 0BSD
+integridade do tarball (registro, conferida): sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
+==============================================================================
+[LICENSE.txt]
+
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+==============================================================================
+re2js@2.9.0   licença declarada: MIT
+integridade do tarball (registro, conferida): sha512-rZpqkd4ETP3GrQ5mDLzADr14OleeKdb/40lG84WE8absRfsVLJpWt2ifjtYYeoPqeouIkcxhTlurxIXfR5kR5Q==
+==============================================================================
+[LICENSE]
+
+MIT License
+
+Copyright (c) 2023 Oleksii Vasyliev
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+

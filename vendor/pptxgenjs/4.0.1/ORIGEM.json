@@ -1,0 +1,10 @@
+{
+  "pacote": "pptxgenjs",
+  "versao": "4.0.1",
+  "integridadeDoTarball": "sha512-TeJISr8wouAuXw4C1F/mC33xbZs/FuEG6nH9FG1Zj+nuPcGMP5YRHl6X+j3HSUnS1f3at6k75ZZXPMZlA5Lj9A==",
+  "licenca": "MIT",
+  "arquivos": [
+    "package/dist/pptxgen.bundle.js"
+  ],
+  "alteracao": "nenhuma"
+}

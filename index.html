@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://firestore.googleapis.com; worker-src 'self' blob:; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulador de carreiras</title>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/app.css">
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Ir para o conteúdo</a>
+<header class="topo">
+  <p class="nome-app">Simulador de carreiras</p>
+  <div class="logos">
+    <img class="logo-img logo-esq" src="logo-esquerda.png" alt="Logo esquerda" data-texto-alternativo="Logo esquerda (arquivo a fornecer)">
+    <span class="sep" aria-hidden="true"></span>
+    <img class="logo-img logo-dir" src="logo-direita.png" alt="Logo direita" data-texto-alternativo="Logo direita (arquivo a fornecer)">
+  </div>
+</header>
+<p id="faixa-tipo" class="faixa faixa-ficticio faixa-fixa" role="note" hidden><span aria-hidden="true">&#9650;</span> <strong>Dados fictícios.</strong> <span id="faixa-detalhe">Todos os dados deste estudo são inventados.</span></p>
+<div class="corpo">
+  <nav id="menu" class="menu" aria-label="Menu principal">
+    <div class="menu-barra">
+      <button type="button" id="btn-menu" class="btn-menu" aria-expanded="false" aria-controls="menu-lista"><span aria-hidden="true">&#9776;</span> Menu</button>
+    </div>
+    <div id="menu-lista" class="menu-lista">
+      <a href="#/estudos" data-rota="estudos">Estudos</a>
+      <div class="grupo">Dentro do estudo</div>
+      <a href="#/carreiras" data-rota="carreiras">Carreiras</a>
+      <a href="#/base" data-rota="base">Base de servidores</a>
+      <a href="#/evolucao" data-rota="evolucao">Evolução individual</a>
+      <a href="#/projecao" data-rota="projecao">Projeção e propostas</a>
+      <a href="#/comparar" data-rota="comparar">Comparar carreiras</a>
+      <a href="#/premissas" data-rota="premissas">Premissas</a>
+      <a href="#/exportar" data-rota="exportar">Exportar</a>
+    </div>
+  </nav>
+  <main id="conteudo" class="principal" tabindex="-1">
+    <nav class="trilha" aria-label="Trilha de navegação"><ol id="trilha"></ol></nav>
+    <div id="barra" class="barra-estudo" hidden></div>
+    <div id="tela" aria-busy="true"><p>Carregando…</p></div>
+    <div id="anuncios" class="so-leitor" role="status" aria-live="polite"></div>
+    <noscript><p class="faixa faixa-erro" role="alert">Este aplicativo precisa de JavaScript. Ative-o no navegador e recarregue a página.</p></noscript>
+  </main>
+</div>
+</body>
+</html>

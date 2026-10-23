@@ -1,0 +1,10 @@
+{
+  "pacote": "write-excel-file",
+  "versao": "4.1.1",
+  "integridadeDoTarball": "sha512-MUnCnNtQrcZek832ZcU24uU0rSphFmKPD1DvIjXOlygVb93CV7Tme6H3jUTkxsMmjB2W7HIzERzjqTi5kui71A==",
+  "licenca": "MIT",
+  "arquivos": [
+    "package/bundle/write-excel-file.min.js"
+  ],
+  "alteracao": "nenhuma"
+}
