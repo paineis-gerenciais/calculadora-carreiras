@@ -1,0 +1,112 @@
+/* Tokens do design: gerados a partir de docs/design/tokens.md (ui-product-design, 23/10/2026).
+   Valor solto de cor, tamanho ou espaçamento fora desta lista não deve aparecer em app.css.
+   Fonte: Public Sans (SIL OFL 1.1), hospedada no próprio site; licença em fontes/public-sans/OFL.txt. */
+
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fontes/public-sans/public-sans-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fontes/public-sans/public-sans-latin-600-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fontes/public-sans/public-sans-latin-700-normal.woff2") format("woff2");
+}
+
+:root {
+  /* 1.1 Base e marca */
+  --ink: #242321;
+  --ink-soft: #494745;
+  --text-muted: #636363;
+  --paper: #efefed;
+  --surface: #ffffff;
+  --border: #d1bed3;
+  --border-strong: #84518a;
+  --accent: #65266d;
+  --accent-dark: #531c5a;
+  --accent-soft: #f0e9f0;
+  --accent-tint: #e0d4e2;
+  --accent-mid: #a37da7;
+  --accent-lilac: #8443b2;
+  --sidebar: #3a1d3f;
+  --sidebar-hover: #531c5a;
+  --sidebar-note: #c1a8c5;
+  --focus: #65266d;
+  --focus-on-dark: #fafafa;
+  --on-accent: #ffffff;
+
+  /* 1.2 Semânticas */
+  --danger: #c43f45;
+  --danger-dark: #9c2f34;
+  --danger-soft: #f8e4e5;
+  --success: #727e53;
+  --success-dark: #4a5533;
+  --success-soft: #eef1e4;
+  --warn-dark: #7a4b0a;
+  --warn-soft: #f8ecd6;
+  --info: #1e3463;
+  --info-soft: #e6ebf5;
+
+  /* 1.3 Paletas de gráfico (sempre sobre --surface) */
+  --serie-atual: #494745;
+  --serie-p1: #65266d;
+  --serie-p2: #008080;
+  --serie-p3: #b4531a;
+  --comp-ven: #1e3463;
+  --comp-13: #a37da7;
+  --comp-fer: #7e8a5f;
+  --comp-enc: #b4531a;
+
+  /* 3. Tipografia */
+  --font-base: "Public Sans", system-ui, sans-serif;
+  --text-h1-size: 1.75rem;
+  --text-h1-line: 2.25rem;
+  --text-h2-size: 1.5rem;
+  --text-h2-line: 2rem;
+  --text-h3-size: 1.25rem;
+  --text-h3-line: 1.75rem;
+  --text-stat-size: 2rem;
+  --text-stat-line: 2.5rem;
+  --text-body-size: 1rem;
+  --text-body-line: 1.5rem;
+  --text-small-size: 0.875rem;
+  --text-small-line: 1.25rem;
+  --text-caption-size: 0.75rem;
+  --text-caption-line: 1rem;
+
+  /* 4. Espaçamento, forma, movimento */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 40px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 20px;
+  --border-width: 1px;
+  --border-width-strong: 2px;
+  --shadow-overlay: 0 12px 28px rgba(36, 35, 33, 0.28);
+  --backdrop: rgba(36, 35, 33, 0.6);
+  --size-touch: 44px;
+  --size-menu: 240px;
+  --size-content-max: 1280px;
+  --motion-fast: 150ms;
+
+  /* 5. Breakpoints (referência: CSS não aceita variável em media query)
+     bp-compact < 860px · bp-wide 860-1279px · bp-xwide >= 1280px · bp-logo 768px */
+}

@@ -1,0 +1,10 @@
+Public Sans (subconjunto latin, pesos 400, 600 e 700), formato woff2.
+Origem: pacote npm @fontsource/public-sans@5.3.0 (licença OFL-1.1), que empacota a fonte do projeto uswds/public-sans.
+dist.integrity do tarball (registro, 23/10/2026): sha512-kjODI0S3zdv0mBYCIQ8TbBayaiqszpc2UbhJiO3bjIqVVXzcWfHSt2o3WBCLOY3juaGaQoy4MoWCcgmfI5hCuA==
+Licença: SIL Open Font License 1.1 (OFL.txt, distribuída junto, como a OFL exige). Os arquivos não foram modificados.
+
+SHA-256 dos arquivos:
+36274b5787b4f03b27e65ae971d6c808a96838ccd60c9dabaee154889b6bba82  public-sans-latin-400-normal.woff2
+c7842f97346df1b3b470e9d71acde90f132dd858508ec5ae6606401e5d0938f7  public-sans-latin-600-normal.woff2
+dace741613696827f61dbee2d984e8685f14a2846136783f3ad1c8950914bf1d  public-sans-latin-700-normal.woff2
+705a497c781f6463ff819abb513bb495f3fb05256f1d20321e3275813c0bafa5  OFL.txt

@@ -1,0 +1,10 @@
+{
+  "pacote": "read-excel-file",
+  "versao": "9.3.12",
+  "integridadeDoTarball": "sha512-benNAoQbe5HqoTi3qrQkR8wMeHq0gVWLt2Br73hVvmBPGdzMf9OLGsps/812AfZ+bvzVYsUyhF77Y3o4B51yCA==",
+  "licenca": "MIT",
+  "arquivos": [
+    "package/bundle/read-excel-file.min.js"
+  ],
+  "alteracao": "nenhuma"
+}

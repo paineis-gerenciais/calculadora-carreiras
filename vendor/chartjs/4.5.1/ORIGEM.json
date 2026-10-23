@@ -1,0 +1,10 @@
+{
+  "pacote": "chart.js",
+  "versao": "4.5.1",
+  "integridadeDoTarball": "sha512-GIjfiT9dbmHRiYi6Nl2yFCq7kkwdkp1W/lp2J99rX0yo9tgJGn3lKQATztIjb5tVtevcBtIdICNWqlq5+E8/Pw==",
+  "licenca": "MIT",
+  "arquivos": [
+    "package/dist/chart.umd.min.js"
+  ],
+  "alteracao": "nenhuma"
+}
